@@ -12,7 +12,7 @@ A from-scratch HTTP server built using the **Winsock2 library** for socket progr
 ## Testing
 
 1. Run the provided shell script to start the TCP server
-2. Open your browser and navigate to `http://localhost`
+2. Open your browser and navigate to `http://localhost:8080`
 3. View the details of the GET request in the server console, and see the static html on the page, if you try to access other files it will return a 404 not found error, with a side 404 HTML message.
 
 ## Future Improvements

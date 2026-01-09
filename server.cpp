@@ -33,7 +33,7 @@ int main () {
 
     sockaddr_in serverAddress;
     serverAddress.sin_family = AF_INET;
-    serverAddress.sin_port = htons(80);
+    serverAddress.sin_port = htons(8080);
     serverAddress.sin_addr.s_addr = INADDR_ANY;
 
     iResult = bind(serverSocket, (struct sockaddr*)&serverAddress, sizeof(serverAddress));
