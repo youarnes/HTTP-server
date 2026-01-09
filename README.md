@@ -15,10 +15,6 @@ A from-scratch HTTP server built using the **Winsock2 library** for socket progr
 2. Open your browser and navigate to `http://localhost:8080`
 3. View the details of the GET request in the server console, and see the static html on the page, if you try to access other files it will return a 404 not found error, with a side 404 HTML message.
 
-## Future Improvements
-1. Improve header parsing to handle various HTTP methods and headers
-2. Improve code modularity and organization
-
 ## Resources
 
 - [Winsock2 Documentation](https://learn.microsoft.com/en-us/windows/win32/api/winsock2/)
